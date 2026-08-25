@@ -4,7 +4,7 @@ function createBot() {
     const bot = mineflayer.createBot({
         host: 'mundo_palanca1234.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 38301,                // Puerto predeterminado de Minecraft
-        username: 'aarondavid1233218',    // Nombre genÃ©rico del bot/NPC dentro del juego
+        username: 'AlonYTt',    // Nombre genÃ©rico del bot/NPC dentro del juego
         version: false              // Autodetecta la versiÃ³n exacta del servidor (1.8 a 1.21+)
     });
 
