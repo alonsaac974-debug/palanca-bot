@@ -4,7 +4,7 @@ function createBot() {
     const bot = mineflayer.createBot({
         host: 'mundo_palanca1234.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 38301,                // Puerto predeterminado de Minecraft
-        username: 'palancaYT',    // Nombre genÃ©rico del bot/NPC dentro del juego
+        username: 'AlonYT',    // Nombre genÃ©rico del bot/NPC dentro del juego
         version: false              // Autodetecta la versiÃ³n exacta del servidor (1.8 a 1.21+)
     });
 
@@ -62,8 +62,6 @@ function createBot() {
         console.log(`[NPC] ConexiÃ³n finalizada por: ${reason}. Reintentando en 25 segundos...`);
         setTimeout(createBot, 25000);
     });
-
-    bot.on('error', (err) => console.log(`[NPC] Error crÃ­tico de red detectado: ${err}`));
 }
 
 createBot();
